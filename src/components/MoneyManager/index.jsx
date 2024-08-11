@@ -111,7 +111,7 @@ class MoneyManager extends Component {
         <div className="app-container">
           <div className="money-manager-main-container">
             <div className="welcome-head-container">
-              <h1 className="main-heading">HI, Richard</h1>
+              <h1 className="main-heading">HI, Tamilarasan</h1>
               <p className="main-description">
                 Welcome back to your 
                 <span className="money-style">Money Manager</span>
