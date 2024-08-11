@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.table-data {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  background-color: #f1f5f9;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+}
+.table-data-cell {
+  color: #334155;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0 10px;
+  min-width: 30%;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+  width: 200px;
+  cursor: pointer;
+}
+.delete-img {
+  width: 23px;
+  height: 23px;
+}
+@media only screen and (max-width: 900px) {
+  .delete-img {
+    width: 18px;
+    height: 18px;
+  }
+}

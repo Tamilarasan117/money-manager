@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.money-details-main-container {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.money-details-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 7px;
+  padding: 10px;
+  width: 30%;
+  height: 90px;
+}
+.money-img {
+  width: 50px;
+  margin-left: 20px;
+}
+.balance-text-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.balance-text {
+  color: #475569;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.balance {
+  color: #334155;
+  font-size: 22px;
+}
+.balance-color {
+  border-color: #84cc16;
+  background-color: #eeffd5;
+}
+.income-color {
+  border-color: #06b6d4;
+  background-color: #d4f9ff;
+}
+.expenses-color {
+  border-color: #7c3aed;
+  background-color: #e4d4ff;
+}
+@media only screen and (max-width: 900px) {
+  .money-img {
+    width: 40px;
+  }
+  .money-details-card {
+    padding: 7px;
+  }
+  .balance-text {
+    font-size: 14px;
+  }
+  .balance {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .money-details-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .money-details-card {
+    width: 45%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .money-details-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .money-details-card {
+    min-width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+}
