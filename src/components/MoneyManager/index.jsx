@@ -74,7 +74,7 @@ class MoneyManager extends Component {
       else {
         expenses += parseInt(eachAmount.transactionAmount)
       }
-      balance = income - expenses
+      balance = parseInt(income - expenses)
     })
     return balance
   }
